@@ -28,9 +28,4 @@ resource "confluent_kafka_topic" "confluentPS_test" {
   config = {
     "cleanup.policy" = each.value.cleanup_policy
   }
-
-  credentials {
-    key    = var.kafka_api_key
-    secret = var.kafka_api_secret
-  }
 }

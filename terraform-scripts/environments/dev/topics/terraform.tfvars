@@ -9,7 +9,7 @@ kafka_api_secret = "5BBBBBBBBBBBBBBBBBBBBBBBBBBBB"
 
 env_confluentPS_id     = "env-xxxxxxx"
 cluster_confluentPS_id = "lkc-xxxxxx"
-
+kafka_rest_endpoint    = "https://xxxxxx.xxx.xxx.confluent.cloud:443"
 
 
 

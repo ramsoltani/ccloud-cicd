@@ -33,4 +33,5 @@
 | <a name="input_env_confluentPS_id"></a> [env\_confluentPS\_id](#input\_env\_confluentPS\_id) | Confluent Environment ID) | `string` | n/a | yes |
 | <a name="input_kafka_api_key"></a> [kafka\_api\_key](#input\_kafka\_api\_key) | Confluent Cluster API Key | `string` | n/a | yes |
 | <a name="input_kafka_api_secret"></a> [kafka\_api\_secret](#input\_kafka\_api\_secret) | Confluent Cluster API secret | `string` | n/a | yes |
+| <a name="input_kafka_rest_endpoint"></a> [kafka\_rest\_endpoint](#input\_kafka\_rest\_endpoint) | Confluent Cluster REST Endpoint | `string` | n/a | yes |
 | <a name="input_topics"></a> [topics](#input\_topics) | List of Topics | <pre>map(object({<br>    partitions_count = number<br>    cleanup_policy   = string<br>  }))</pre> | n/a | yes |

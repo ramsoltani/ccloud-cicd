@@ -20,6 +20,11 @@ variable "cluster_confluentPS_id" {
   type        = string
 }
 
+variable "kafka_rest_endpoint" {
+  description = "Confluent Cluster REST Endpoint"
+  type        = string
+}
+
 variable "kafka_api_key" {
   description = "Confluent Cluster API Key"
   type        = string
